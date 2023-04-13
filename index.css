@@ -1,0 +1,53 @@
+header{
+    display: flex;
+    flex-direction: row;
+    background-color:#F6F1E9;
+    justify-content: space-around;
+    color: brown;
+}
+main{
+   
+    position: relative;
+    background-color: #FFD93D;
+}
+
+
+cardContainer{
+    display: flex;
+    /* flex-direction: row; */
+    position: absolute;
+    top: 400px;
+
+}
+div{
+    background-color: #FF8400;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+
+#employeesForm{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+display: flex;
+flex-direction: column;
+background-color: #FF8400;
+
+
+}
+
+footer{
+    background-color: #4F200D;
+    position: relative;
+    top: 2000px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around
+}
+footer.div{
+   
+}
