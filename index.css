@@ -11,22 +11,90 @@ main{
     background-color: #FFD93D;
 }
 
+.Departments{
+    display: block;
+    background-color: #F6F1E9;
+    padding: 10px;
 
+}
 cardContainer{
-    display: flex;
+    /* display: grid; */
+    /* grid-template-columns: 50% 50%; */
+    /* display: flex; */
     /* flex-direction: row; */
     position: absolute;
     top: 400px;
 
 }
-div{
+#Administration{
     background-color: #FF8400;
-    display: flex;
-    flex-direction: column;
-    width: 600px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    /* flex-direction: auto; */
+    padding: 10px;
+    margin: 20px;
+    margin-top: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 10px solid black;
+
+    justify-content: space-around;
+    width: 100%
 }
+#xxx{
+    margin: 10px;
+    border: 5px solid black;
+    padding: 10px;
+    /* height: 400px; */
+    width: 410px;
+    justify-content: center;
+    align-items: center;
+  }
+  #Marketing{
+    background-color: #FF8400;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    /* flex-direction: auto; */
+    padding: 10px;
+    margin: 20px;
+    margin-top: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 10px solid black;
 
+    justify-content: space-around;
+    width: 100%
+}
+#Development{
+    background-color: #FF8400;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    /* flex-direction: auto; */
+    padding: 10px;
+    margin: 20px;
+    margin-top: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 10px solid black;
 
+    justify-content: space-around;
+    width: 100%
+}
+#Finance{
+    background-color: #FF8400;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    /* flex-direction: auto; */
+    padding: 10px;
+    margin: 20px;
+    margin-top: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 10px solid black;
+
+    justify-content: space-around;
+    width: 100%
+}
 #employeesForm{
     position: absolute;
     left: 0px;
@@ -38,7 +106,6 @@ background-color: #FF8400;
 
 
 }
-
 footer{
     background-color: #4F200D;
     position: relative;
@@ -47,7 +114,4 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content:space-around
-}
-footer.div{
-   
 }
